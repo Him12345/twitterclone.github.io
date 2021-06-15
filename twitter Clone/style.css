@@ -1,0 +1,391 @@
+/* left section starts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sideoption{
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+}
+
+i{
+    padding: 20px;
+}
+.fa-twitter{
+    color: rgb(29, 161, 242);
+}
+
+.fa-twitter:hover{
+    background-color: rgba(29, 160, 242, 0.178);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.sidenavi h1:hover{
+    background-color:rgba(29, 160, 242, 0.15) ;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.sideoption h2{
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sideoption:hover{
+    background-color: rgba(29, 160, 242, 0.15);
+    color: rgb(29, 161, 242);
+    border-radius: 30px;
+    transition: color 100ms ease-in-out;
+}
+
+
+.btntwitter{
+    width: 100%;
+    background-color: rgb(29, 161, 242);
+    font-weight: 900;
+    color: whitesmoke;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 20px;
+}
+.btntwitter:hover{
+    background-color: rgba(8, 94, 148, 0.966);
+    cursor: pointer;
+    transition: color 10ms ease-in-out;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+.sidenavi{
+    border-right: 1px solid rgba(128, 128, 128, 0.459);
+    width: 250px;
+    margin-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+/* left section ends */
+  /* middle section starts */
+.main_container{
+    flex: 0.7;
+    border-right: 1px solid rgba(128, 128, 128, 0.787);
+    min-width: fit-content;
+    overflow-y: scroll;
+    
+}
+.fa-arrow-left{
+    color: rgb(29, 161, 242);
+}
+
+.fa-arrow-left:hover{
+    background-color: rgba(29, 160, 242, 0.178);
+
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.493) ;
+    position: sticky;
+    top: 0;
+    padding: -1px 20px;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+.header h2{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+ 
+
+.main_container{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.headerinside{
+    display: flex;
+    flex-direction: column;
+
+}
+.headerinside h6{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+
+.profile1 #image1{
+    width: 720px;
+    height: 200px;
+}
+
+.profile1 #image2{
+    width: 130px;
+    height: 125px;
+   border-radius: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.808);
+    margin-left: 20px;
+    margin-top: -68px;
+}
+
+.profile1{
+    display: flex;
+    flex-direction: column;
+}
+.profile1 img:hover{
+    cursor: pointer;
+}
+
+.btnfollowing{
+    width: 120px;
+    background-color: rgb(29, 161, 242);
+    font-weight: 900;
+    color: whitesmoke;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    cursor: pointer;
+   
+}
+
+.profile1icon{
+  
+    width: 550px;
+    height: 60px;
+    padding-left: 240px;
+}
+.profile1icon i{
+    color: rgb(29, 161, 242);
+    border-radius: 50%;
+    border: 1px solid rgb(29, 161, 242) ;
+    padding: 20px;
+}
+
+.profile1icon i:hover{
+    background-color: rgba(29, 160, 242, 0.198);
+    cursor: pointer;
+}
+
+.btnfollowing:hover{
+    background-color: rgba(128, 0, 0, 0.815);
+    
+}
+
+.profile11{
+    display: flex;
+   
+}
+
+.description1{
+       
+        padding-left: 18px;
+       
+}
+
+.description1 h2{
+    font-weight: 800;
+    font-size: 21px;
+}
+
+.description1 h4{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+.description2{
+   
+    
+    padding: 20px;
+    padding-left: 18px;
+  
+
+}
+
+
+.description3 h2{
+   font-size: 15px;
+   font-family: 'Fjalla One', sans-serif;
+   font-weight: 100;
+
+}
+
+.inside{
+    display: flex;
+    align-items: center;
+}
+
+.description4 h3{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 20px;
+    padding-left:18px;
+    padding-top: 10px;
+}
+
+.navi{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.465);
+    height: 50px;
+
+}
+.naviinside{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.naviinside a{
+    text-decoration: none;
+    padding: 52px;
+    padding-top: 27px;
+    padding-bottom: 0;
+    font-weight:1000;
+    color: rgb(128, 128, 128);
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.naviinside a:hover{
+   background-color: rgba(29, 160, 242, 0.322);
+   color: rgb(29, 161, 242);
+   border-radius: 5px;
+}
+
+
+.postinside1{
+    display: flex;
+    align-items: center;
+
+}
+
+.postinside1 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.739);
+    padding: 2px;
+    margin: 12px;
+}
+
+.postinside1 h2{
+   font-family: 'Fjalla One', sans-serif;
+   font-size: 23px;
+
+}
+
+.postinside1 h3{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+.postinside1 i{
+    margin-left: 295px;
+    padding: 10px;
+}
+.postinside1 i:hover{
+    background-color: rgba(29, 160, 242, 0.246);
+    color: rgb(29, 161, 242);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.parainfo{
+    width: 300px;
+}
+.parainfo p{
+    width: 650px;
+    
+    padding: 5px;
+    padding-left: 60px;
+}
+.parainfo img{
+    width: 720px;
+    height: 360px;
+}
+
+.posticon i{
+    padding: 10px;
+    padding-left: 118px;
+}
+
+.posticon i:hover{
+     color: rgb(29, 161, 242);
+     cursor: pointer;
+    
+     
+}
+/* middle section ends */
+
+/* left section starts */
+.rightsection{
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    border: 1px solid rgba(128, 128, 128, 0.65);
+    border-radius: 30px;
+   
+   
+}
+.rightsection input{
+  cursor: pointer;
+    border: none;
+    font-size:18px;
+    outline: none;
+
+}
+
+.happening{
+    margin-top: 15px;
+    margin-left:20px ;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.happening h1{
+    font-size: 18px;
+    font-weight: 800;
+}
+/* left section end */
+
+/* mediaquaries */
+@media(max-width:1045px){
+    .rightsection{
+        display: none;
+
+    }
+
+}
+
+@media(max-width:1050px){
+   .main_container{
+       width: 100%;
+   }
+}
+@media(max-width:1290px){
+    .sidenavi{
+        display: none;
+    }
+    
+    }
+ 
